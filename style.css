@@ -25,7 +25,7 @@ h1 {
 
 img {
   background-color: red;
-    
+  border: 5px solid black;
 }
 
 .tab {
@@ -65,17 +65,6 @@ img {
   border-top: none;
 }
 
-.thomas {
-  background-color: blue;
-  font-family:'Courier New', Courier, monospace;
-  
-}
-.thomas h1{
-  color: black;
-  font-size:xx-large;
-  font-weight: bold;
-}
-
 .groupimages {
   image-rendering: optimizeQuality;
   background-color: black;
@@ -93,18 +82,39 @@ img {
   margin: 10px;
 }
 
+.thomas {
+  background-color: blue;
+  font-family:'Courier New', Courier, monospace;
+  border: 4px solid black;
+}
+
 .theo {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: hotpink;
+  border: 4px solid black;
+
 }
 
 .logan {
-
+  border: 4px solid black;
+  background-color: beige;
 }
 
 .connor {
-
+  background-color: red;
+  border: 4px solid black;
 }
 
 .andrew {
-  
+  border: 4px solid black;
+  background-color: green;
+}
+
+.theo h1, .thomas h1, .andrew h1, .connor h1, .logan h1 {
+  color: black;
+}
+
+.theo img, .thomas img, .andrew img, .connor img, .logan img {
+  margin: 5px;
+  background-color: inherit;
 }

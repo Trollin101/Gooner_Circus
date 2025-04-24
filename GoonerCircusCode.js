@@ -19,7 +19,10 @@ function openTab(evt, tabName) {
   const images = [
     "Pictures/Gooner Circus Pie.jpg",
     "Pictures/Gooner Circus Smores.jpg",
-    "Pictures/Gooner Circus Smores Two.jpg"
+    "Pictures/Gooner Circus Smores Two.jpg",
+    "Pictures/Jolly Gooner Group Jumping.png",
+    "Pictures/Silly Times Part Two.jpg",
+    "Pictures/Phone Funeral.jpg"
   ];
   let currentImageIndex = 0;
 
