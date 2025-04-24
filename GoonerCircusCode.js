@@ -16,4 +16,19 @@ function openTab(evt, tabName) {
     document.querySelector(".tablinks").click();
   });
 
-  
+  const images = [
+    "Pictures/Gooner Circus Pie.jpg",
+    "Pictures/Gooner Circus Smores.jpg",
+    "Pictures/Gooner Circus Smores Two.jpg"
+  ];
+  let currentImageIndex = 0;
+
+  function changePicture(direction) {
+    if (direction === 'forward') {
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+    } else if (direction === 'back') {
+      currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+    }
+
+    document.getElementById("groupImage").src = images[currentImageIndex];
+  }

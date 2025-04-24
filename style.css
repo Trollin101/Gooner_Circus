@@ -2,24 +2,29 @@ html {
   background-color: black;
   padding: 5px 20px;
 }
+
 body {
-    background-color: purple;
-    color: greenyellow;
-    text-align: center;
-    padding: 0px 100px;
+  background-color: purple;
+  color: greenyellow;
+  text-align: center;
+  padding: 0px 100px;
   }
+
 h3 {
   color:black;
   text-align: left;
 }
+
 h2 {
-    color: black;
+  color: black;
 }
+
 h1 {
-    color: aliceblue;
+  color: aliceblue;
 }
+
 img {
-    background-color: red;
+  background-color: red;
     
 }
 
@@ -69,7 +74,23 @@ img {
   color: black;
   font-size:xx-large;
   font-weight: bold;
-  
+}
+
+.groupimages {
+  image-rendering: optimizeQuality;
+  background-color: black;
+  border: 10px solid white;
+  text-align: center;
+}
+
+.navbutton {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
 }
 
 .theo {
@@ -87,5 +108,3 @@ img {
 .andrew {
   
 }
-
-
