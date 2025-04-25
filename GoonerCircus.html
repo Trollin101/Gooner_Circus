@@ -6,16 +6,21 @@
   <meta charset="UTF-8">
   <title>Gooner Circus</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+
   <script src="GoonerCircusCode.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-  <div class="tab">        <!-- Runs the code to make the buttons-->
-    <button class="tablinks" onclick="openTab(event, 'Tab1')">Goontroduction</button> 
+  <div class="tab"> <!-- Runs the code to make the buttons-->
+    <button class="tablinks" onclick="openTab(event, 'Tab1')">Goontroduction</button>
     <button class="tablinks" onclick="openTab(event, 'Tab2')">Thomas</button>
-    <button class="tablinks" onclick="openTab(event, 'Tab3')">Theo</button> 
+    <button class="tablinks" onclick="openTab(event, 'Tab3')">Theo</button>
     <button class="tablinks" onclick="openTab(event, 'Tab4')">Logan</button>
-    <button class="tablinks" onclick="openTab(event, 'Tab5')">Connor</button> 
+    <button class="tablinks" onclick="openTab(event, 'Tab5')">Connor</button>
     <button class="tablinks" onclick="openTab(event, 'Tab6')">Andrew</button>
   </div>
   <div id="Tab1" class="tabcontent">
@@ -26,7 +31,7 @@
     <h1> Welcome to Gooner Circus </h1>
     <div class="groupimages">
       <button class="navbutton" onclick="changePicture('back')">◀ Back</button>
-      <img id="groupImage" src="Pictures/Gooner Circus Pie.jpg" alt="Group pie picture" height="900">
+      <img id="groupImage" src="Pictures/Gooner Circus Pie.jpg" alt="Group pie picture" width="65%">
       <button class="navbutton" onclick="changePicture('forward')">Forward ▶</button>
     </div>
   </div>
@@ -34,42 +39,44 @@
   <div id="Tab2" class="tabcontent">
     <div class="thomas">
       <h1> THOMAS </h1>
-      <img src="Pictures\THOMAS SILLY.png" alt="Silly Thomas" width="700" height="850">
-      <img src="Pictures\Thomas Is A Gang Affiliate.jpg" alt="Gang Affiliate Thomas" width="700" height="850">
+      <img src="Pictures\THOMAS SILLY.png" alt="Silly Thomas">
+      <img src="Pictures\Thomas Is A Gang Affiliate.jpg" alt="Gang Affiliate Thomas">
     </div>
   </div>
 
   <div id="Tab3" class="tabcontent">
     <div class="theo">
       <h1> THEO </h1>
-      <img src="Pictures\Theo Close And Personal.jpg" alt="Gang Affiliate Thomas" width="700" height="850">
-      <img src="Pictures\Theo MY WATER.jpg" alt="Theo Holding Water Bottle" width="700" height="850">
+      <img src="Pictures\Theo Close And Personal.jpg" alt="Gang Affiliate Thomas">
+      <img src="Pictures\Theo MY WATER.jpg" alt="Theo Holding Water Bottle">
     </div>
   </div>
 
   <div id="Tab4" class="tabcontent">
     <div class="logan">
       <h1> LOGAN </h1>
-      <img src="Pictures\Logan Blinded.jpg" alt="Silly Thomas" width="700" height="850">
-      <img src="Pictures\Logan As A Pastor.jpg" alt="Gang Affiliate Thomas" width="700" height="850">
+      <img src="Pictures\Logan Blinded.jpg" alt="Silly Thomas">
+      <img src="Pictures\Logan As A Pastor.jpg" alt="Gang Affiliate Thomas">
     </div>
   </div>
 
   <div id="Tab5" class="tabcontent">
     <div class="connor">
       <h1> CONNOR </h1>
-      <img src="Pictures/Religous Christmas Colors.jpg" alt="Christmas Cheer Connor" width="700" height="850">
-      <img src="Pictures/Connor Open Ketchup Sigma.jpg" alt="Ketchup Opening Connor" width="700" height="850">
+      <img src="Pictures/Religous Christmas Colors.jpg" alt="Christmas Cheer Connor">
+      <img src="Pictures/Connor Open Ketchup Sigma.jpg" alt="Ketchup Opening Connor">
+      <p> HELLO </p>
     </div>
   </div>
 
   <div id="Tab6" class="tabcontent">
     <div class="andrew">
       <h1> ANDREW </h1>
-      <img src="Pictures\Andrew Confused.jpg" alt="Silly Thomas" width="750" height="850">
-      <img src="Pictures\Andrew Walking.jpg" alt="Silly Thomas" width="750" height="850">
+      <img src="Pictures\Andrew Confused.jpg" alt="Silly Thomas">
+      <img src="Pictures\Andrew Walking.jpg" alt="Silly Thomas">
     </div>
   </div>
+
 </body>
 
 </html>

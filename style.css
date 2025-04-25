@@ -117,4 +117,6 @@ img {
 .theo img, .thomas img, .andrew img, .connor img, .logan img {
   margin: 5px;
   background-color: inherit;
+  width:35%;
+  height:auto;
 }
